@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# The Budget App
+This repo contains all the files for this [Budget App](https://thebudgetapp-yro.web.app/), be sure to check out the live demo.
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
