@@ -34,10 +34,11 @@ function App() {
           </Button>
         </Stack>
         <Stack direction="horizontal">
-        <blockquote className="blockquote">
-           <p className="mb-3 h6 text-muted">A budget is telling your money where to go, instead of worrying where its going.</p>
+        <blockquote className="mb-0 blockquote">
+           <p className="mb-0 h6 text-muted">A budget is telling your money where to go, instead of worrying where its going.</p>
         </blockquote>
         </Stack>
+        <hr className="mb-5"></hr>
         <div
           style={{
             display: "grid",
