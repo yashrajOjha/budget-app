@@ -25,16 +25,18 @@ function App() {
     <>
       <Container className="my-4">
         <Stack direction="horizontal" gap="2" className="mb-4">
-         <Stack direction="vertical">
          <h1 className="me-auto">The Budget App</h1>
-          <p className="h6 text-muted">A budget is telling your money where to go, instead of worrying where its going.</p>
-         </Stack>
           <Button variant="primary" onClick={() => setShowAddBudgetModal(true)}>
             Add Budget
           </Button>
           <Button variant="outline-primary" onClick={openAddExpenseModal}>
             Add Expense
           </Button>
+        </Stack>
+        <Stack direction="horizontal">
+        <blockquote className="blockquote">
+           <p className="mb-3 h6 text-muted">A budget is telling your money where to go, instead of worrying where its going.</p>
+        </blockquote>
         </Stack>
         <div
           style={{
